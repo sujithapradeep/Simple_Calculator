@@ -3,13 +3,16 @@ def addition(number_1, number_2):
     print("sum is ",add)
 
 def subtraction(number_1, number_2):
-    sub = number_1 + number_2
+    sub = number_1 - number_2
     print("difference is ",sub)
 
 def multiplication(number_1, number_2):
-    
+    mult = number_1 * number_2
+    print("product is ",mult)
 
 def division(number_1, number_2):
+    div = number_1 // number_2
+    print("quotient is ",div)
 
 def get_input():
     number_1 = int(input("enter first number:"))
