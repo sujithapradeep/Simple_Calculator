@@ -19,7 +19,7 @@ def get_input():
     number_2 = int(input("enter second number:"))
 
 
-input()
+get_input()
 print("1 - add\t 2 - sub\t 3 - multiply\t 4 - divide")
 a = int(input("enter the option"))
 if(a == 1):
